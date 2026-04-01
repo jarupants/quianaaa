@@ -23,20 +23,43 @@
   url('SpaceGrotesk.ttf') format('truetype');
 }
 
+#backlink {
+    margin-top: 120px;
+    margin-left: 120px;
+}
 
 html, body {
-  margin: 0;
-  padding: 0;
+  display: flex;
   width: 100dvw;
   height: 100dvh;
+  overflow:hidden;
+  margin-bottom:120px;
   background-color: rgb(245, 243, 235);
   font-family: 'Space Grotesk', sans-serif;
   color:rgb(82, 40, 40);
   font-size: 18px;
 }
 
+#content {
+    min-height:0;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    margin-top: 40px;
+    overflow: scroll;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    /* mask-image: linear-gradient(to bottom, 
+    transparent, 
+    black 20px, 
+    black calc(100% - 20px), 
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 50px, black calc(100% - 50px), transparent); */
+}
+
 #homecontainer {
-  padding: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +67,6 @@ html, body {
 }
 
 #othercontainer {
-  padding: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,11 +74,12 @@ html, body {
 }
 
 #blogcontainer {
-  padding: 120px;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: left;
+  width: 60%;
+  
 }
 
 #resumecontainer {
@@ -103,6 +126,7 @@ br {
     font-size: 16px;
     font-weight: bold;
     line-height: 150%;
+    margin-left: 120px;
 }
 
 .date {

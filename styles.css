@@ -27,17 +27,15 @@
 html, body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  width: 100dvw;
+  height: 100dvh;
   background-color: rgb(245, 243, 235);
   font-family: 'Space Grotesk', sans-serif;
   color:rgb(82, 40, 40);
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #homecontainer {
-  width: 80dvw;
-  height: 80dvh;
   padding: 120px;
   display: flex;
   flex-direction: column;
@@ -46,8 +44,6 @@ html, body {
 }
 
 #othercontainer {
-  width: 80dvw;
-  height: 80dvh;
   padding: 120px;
   display: flex;
   flex-direction: column;
@@ -56,8 +52,6 @@ html, body {
 }
 
 #blogcontainer {
-  width: 80dvw;
-  height: 80dvh;
   padding: 120px;
   display: flex;
   flex-direction: column;

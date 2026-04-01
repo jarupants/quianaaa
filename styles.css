@@ -24,8 +24,8 @@
 }
 
 #backlink {
-    margin-top: 120px;
-    margin-left: 120px;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 html, body {
@@ -33,7 +33,7 @@ html, body {
   width: 100dvw;
   height: 100dvh;
   overflow:hidden;
-  margin-bottom:120px;
+  margin-bottom:100px;
   background-color: rgb(245, 243, 235);
   font-family: 'Space Grotesk', sans-serif;
   color:rgb(82, 40, 40);
@@ -42,9 +42,9 @@ html, body {
 
 #content {
     min-height:0;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-bottom: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
     margin-top: 40px;
     overflow: scroll;
     display: flex;
@@ -126,7 +126,7 @@ br {
     font-size: 16px;
     font-weight: bold;
     line-height: 150%;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .date {

@@ -50,6 +50,11 @@ html, body {
     display: flex;
     flex-flow: column;
     height: 100%;
+
+    scrollbar-width: none;
+  
+    -ms-overflow-style: none;
+
     /* mask-image: linear-gradient(to bottom, 
     transparent, 
     black 20px, 
@@ -58,6 +63,10 @@ html, body {
   );
   -webkit-mask-image: linear-gradient(to bottom, transparent, black 50px, black calc(100% - 50px), transparent); */
 }
+
+ #content::-webkit-scrollbar {
+    display: none;
+    }
 
 #homecontainer {
   display: flex;
@@ -83,7 +92,6 @@ html, body {
 }
 
 #resumecontainer {
-    width:auto;
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -92,7 +100,7 @@ html, body {
 }
 
 .resumecomponent {
-    width:fit-content;
+    width: 50%;
 }
 
 table {

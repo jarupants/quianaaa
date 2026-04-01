@@ -1,0 +1,144 @@
+/* styles */
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.25s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: local('Space Grotesk'),
+  url('SpaceGrotesk.ttf') format('truetype');
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 243, 235);
+  font-family: 'Space Grotesk', sans-serif;
+  color:rgb(82, 40, 40);
+  font-size: 24px;
+}
+
+#homecontainer {
+  width: 80dvw;
+  height: 80dvh;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+#othercontainer {
+  width: 80dvw;
+  height: 80dvh;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+#blogcontainer {
+  width: 80dvw;
+  height: 80dvh;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+}
+
+#resumecontainer {
+    width:auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: left;
+}
+
+.resumecomponent {
+    width:fit-content;
+}
+
+table {
+    border-spacing: 50px 0;
+    margin-left: -50px;
+}
+
+tr {
+    line-height: 230%;
+}
+
+p {
+    text-wrap: wrap;
+    line-height:180%
+}
+
+br {
+    text-wrap: wrap;
+}
+
+.accent {
+    color:#dd9907;
+}
+
+.blogtext {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.datetext {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.date {
+    text-align: end;
+    width: 0;
+    color:rgb(204, 187, 176);
+}
+
+h1 {
+    font-size: 20px;
+    
+}
+
+a {
+    font-weight: 800;
+    color:#94a30f;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#dd9907;
+    transition: color 0.5s ease;
+}
+
+.resumeBlock {
+    text-align: start;
+    width: 50dvw;
+    margin-left: 22px;
+}
+
+li {
+    margin-left: 20px;
+}
